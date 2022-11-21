@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-snap-type: mandatory;
+}
+
+body {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    
+}
+
+
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}
+
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+
+    
+
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#home {
+    background-color: #557153;
+    color: #E6E5A3;
+    
+}
+
+#about-me {
+    background-color: #7D8F69;
+    color: #A9AF7E;
+}
+
+#projects {
+    background-color: #A9AF7E;
+    color: #7D8F69;
+}
+
+#contact-me {
+    background-color: #E6E5A3;
+    color: #557153;
+}
