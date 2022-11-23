@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,61 @@
     <title>Professional Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="tabs">
+    <header> 
+        <nav class="tabs"><h1>Professional Portfolio
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact</a></li> <!--use email, github, linkdin-->
-            </ul> 
+                <li><a href="#contact-me">Contact</a></li>
+                <!--use email, github, linkdin-->
+            </ul>
         </nav>
     </header>
-    <section class="container">
-        <section id="home">
-            <h1>Professional Portfolio</h1>
+
+    <main>
+        <section class="container">
+            
+            <section id="about-me">
+                <h2>About Me</h2>
+                <h3>Hello! I'm Isaac</h3>
+                <div>
+                    <img src="./images/idpic2.jpg" alt="my-photo">
+                </div>
+                <p> I'm an aspiring Web Developer currently residing in Fergus Falls, Minnesota. I'm 23 years old. Currently enrolled at Rutgers University in there Full-Stack Web Development bootcamp, and plan to graduate in February of 2023. Once I've graduated, I would love to find a career in the development field.
+                </p>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <a href="">
+                    <img src="https://via.placeholder.com/150" alt="project-one" >
+                </a>
+                <a href="">
+                    <img src="https://via.placeholder.com/150" alt="project-two" >
+                </a>
+                <a href="">
+                    <img src="https://via.placeholder.com/150" alt="project-three" >
+                </a>
+                <a href="">
+                    <img src="https://via.placeholder.com/150" alt="project-four" >
+                </a>
+            </section>
+            <section id="contact-me">
+                <h2>Contact Information</h2>
+                <a href="mailto:isaackice@gmail.com" target="_blank">
+                    <img src="./images/email.png" alt="Email Me">
+                </a>
+                <a href="https://github.com/isaackice" target="_blank">
+                    <img src="./images/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/isaac-daniels-374961148/" target="_blank">
+                    <img src="./images/linkedin.png" alt="Linkedin">
+                </a>
+
+                <!--make form, insert button tabs-->
+            </section>
         </section>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <h3>Aspiring Web Developer Isaac Daniels</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur officia iusto fugit odit eius cupiditate dignissimos odio. Sed quaerat magni dolorum nostrum repudiandae rem commodi culpa non repellat! Culpa, esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio mollitia aliquid voluptas assumenda accusamus explicabo porro inventore, necessitatibus recusandae? Minima laboriosam amet modi eaque repudiandae ex officia illo dolorem enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore exercitationem et dignissimos! Illo non perspiciatis, impedit dolorem expedita odit qui, vel explicabo ipsa officiis numquam id quasi, quae animi? Sint!</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-        </section>
-        <section id="contact-me">
-            <h2>Contact Information</h2>
-            <ul class="social">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-            <!--make form, insert button tabs-->
-        </section>
-    </section>
+    </main>
 </body>
 </html>
